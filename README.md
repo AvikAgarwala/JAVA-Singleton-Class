@@ -1,4 +1,4 @@
-# Singleton Class Implementation in Java
+# Singleton Class Implementation in JAVA
 
 ## Introduction
 
