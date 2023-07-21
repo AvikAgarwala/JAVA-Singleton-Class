@@ -28,3 +28,13 @@ javac singleton.java
 ```java
 java Main
 ```
+### Output
+- for `Type-1` implementation
+```
+Object has been created!
+This is a singleton class! Cannot create more objects!
+This is a singleton class! Cannot create more objects!
+1
+Exception in thread "main" java.lang.NullPointerException: Cannot read field "id" because "<local2>" is null
+        at Main.main(singleton.java:30)
+```
