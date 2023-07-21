@@ -5,6 +5,7 @@
 This repository contains a Java implementation of the Singleton design pattern. The Singleton pattern ensures that a class has only one instance. This can be useful in scenarios where you want to restrict the instantiation of a class to a single object.
 
 `Type-1` implementation: This implementation restricts the user to create more than one object of the singleton class.
+`Type-2` implementation: In this implementation every object of the singleton class points to the same memeory location.
 
 ### How to compile
 
@@ -37,4 +38,11 @@ This is a singleton class! Cannot create more objects!
 1
 Exception in thread "main" java.lang.NullPointerException: Cannot read field "id" because "<local2>" is null
         at Main.main(singleton.java:30)
+```
+
+- for `Type-2` implementation
+```
+1
+1
+1
 ```
